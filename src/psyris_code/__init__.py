@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from psyris-code!"
+from . import preprocessing
+
+__all__ = ["preprocessing"]
